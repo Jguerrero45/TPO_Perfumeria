@@ -2,9 +2,19 @@
     padding: 0%;
     margin: 0%;
 }
-.menu{
-    background-color:##156c8e;
+.menu {
+    background-color:#5b78cb;
+    font-size: 2vh;
+    
+    padding: 1vw;
 }
+
+nav a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px 4px #FFFFFF;
+}
+
 footer {
     background-color: rgba(0, 0, 0, 0.8);
     height: 20vh;
