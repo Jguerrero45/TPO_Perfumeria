@@ -1,3 +1,10 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.menu{
+    background-color:##156c8e;
+}
 footer {
     background-color: rgba(0, 0, 0, 0.8);
     height: 20vh;
