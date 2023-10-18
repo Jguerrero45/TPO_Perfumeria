@@ -41,7 +41,7 @@ window.addEventListener('load', function () {
         // Mostrar información sobre la imagen mostrada de forma individual
         const infoImagen = document.createElement('p');
         infoImagen.classList.add('informacion-imagen');
-        infoImagen.textContent = 'Información de la imagen: lorem ' + imagenClickeada.getAttribute('alt');
+        infoImagen.textContent = 'Información de la imagen:' + imagenClickeada.getAttribute('alt');
         document.body.appendChild(infoImagen);
     }
 });
