@@ -1,50 +1,51 @@
-*{
-    padding: 0%;
-    margin: 0%;
+* {
+  padding: 0%;
+  margin: 0%;
 }
+
 nav {
-    background-color: #f2f2f2;
-    border-radius: 10px;
-    padding: 10px;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline-block;
-  }
-  
-  nav ul li a {
-    color: #333;
-    display: block;
-    font-size: 16px;
-    padding: 10px;
-    text-decoration: none;
-  }
-  
-  nav ul li a:hover {
-    background-color: #e6e6e6;
-  }
-  
-  nav ul li.active a {
-    background-color: #bfbfbf;
-    color: #fff;
-  }
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #333;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #e6e6e6;
+}
+
+nav ul li.active a {
+  background-color: #bfbfbf;
+  color: #fff;
+}
 
 footer {
-    background-color: rgba(0, 0, 0, 0.8);
-    height: 20vh;
-    font-size: 2vw;
-    text-align: center;
-    color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 20vh;
+  font-size: 2vw;
+  text-align: center;
+  color: aliceblue;
 }
 
 .texto_pie {
-    padding-top: 5vh;
-    font-size: 2vw;
-    font-family: Montserrat;
+  padding-top: 5vh;
+  font-size: 2vw;
+  font-family: Montserrat;
 }
