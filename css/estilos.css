@@ -1,3 +1,7 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 header{
   background-color: #222;
   color: #fff;
@@ -38,6 +42,11 @@ header{
 }
 /* Menu desplegable*/
 @media (max-width:768px){
+  header{
+    display: flex;
+    margin:auto;
+		width:500px;
+  }
   .checkbtn{
       display: block;
   }
@@ -82,3 +91,66 @@ footer{
   background: #222;
   color: white;
 }
+
+
+
+/* Estilos para los botones "Ver más" en las secciones */
+.button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  font-size: 1.2em;
+  margin: 0 auto;
+  margin-top: 1rem; /* Espacio entre las imágenes y el botón */
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/* Alinea todas las imágenes y el botón en la misma línea */
+.imagen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.imagen img {
+  width: calc(25% - 1rem); /* Ancho del 25% con espacio entre las imágenes */
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-right: 1rem; /* Espacio entre las imágenes */
+  margin-bottom: 1rem;
+}
+
+.imagen img:last-child {
+  margin-right: 0;
+  margin-bottom: 0; /* Sin espacio a la derecha ni abajo para la última imagen */
+}
+
+.imagen img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .imagen img {
+    width: 100%; /* Ancho completo en dispositivos móviles */
+    margin-right: 0; /* Sin espacio a la derecha en dispositivos móviles */
+    margin-bottom: 1rem; /* Espacio entre las imágenes en dispositivos móviles */
+  }
+}
+
+
+
