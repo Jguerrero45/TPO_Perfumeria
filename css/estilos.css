@@ -7,6 +7,11 @@ main {
   padding-top: 15vh;
 }
 
+img {
+  height: 13vw;
+  width: 13vw;
+}
+
 header {
   background-color: #222;
   color: #fff;
