@@ -61,7 +61,7 @@ header {
   header {
     display: flex;
     margin: auto;
-    width: 500px;
+    width: 100%;
   }
 
   .checkbtn {
