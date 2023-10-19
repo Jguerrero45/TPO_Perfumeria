@@ -92,8 +92,41 @@ footer{
   color: white;
 }
 
+/* Estilos para la galería de imágenes */
+.galeria {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem; /* Reemplaza column-gap y row-gap por gap para simplificar */
+}
 
+.imagen {
+  width: 100%;
+}
 
+.imagen img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-bottom: 1rem;
+}
+
+.imagen img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .galeria {
+    grid-template-columns: repeat(1, 1fr); /* Una imagen por fila en dispositivos móviles */
+  }
+}
 /* Estilos para los botones "Ver más" en las secciones */
 .button {
   display: block;
@@ -151,6 +184,3 @@ footer{
     margin-bottom: 1rem; /* Espacio entre las imágenes en dispositivos móviles */
   }
 }
-
-
-
