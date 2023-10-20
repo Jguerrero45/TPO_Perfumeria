@@ -126,16 +126,16 @@ footer {
   width: 100%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 1rem;
   /* Reemplaza column-gap y row-gap por gap para simplificar */
 }
 
-.imagen {
+div {
   width: 100%;
 }
 
-.imagen img {
+div img {
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -146,7 +146,7 @@ footer {
   margin-bottom: 1rem;
 }
 
-.imagen img:hover {
+div img:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
@@ -176,18 +176,19 @@ footer {
 }
 
 .button:hover {
-  background-color: #555;
+  background-color:#4ad295;
+  ;
 }
 
 /* Alinea todas las imágenes y el botón en la misma línea */
-.imagen {
+div {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
 }
 
-.imagen img {
+div img {
   width: calc(25% - 1rem);
   /* Ancho del 25% con espacio entre las imágenes */
   max-width: 100%;
@@ -201,20 +202,20 @@ footer {
   margin-bottom: 1rem;
 }
 
-.imagen img:last-child {
+div img:last-child {
   margin-right: 0;
   margin-bottom: 0;
   /* Sin espacio a la derecha ni abajo para la última imagen */
 }
 
-.imagen img:hover {
+div img:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Estilos para dispositivos móviles (puedes ajustar según sea necesario) */
 @media (max-width: 768px) {
-  .imagen img {
+div img {
     width: 100%;
     /* Ancho completo en dispositivos móviles */
     margin-right: 0;
