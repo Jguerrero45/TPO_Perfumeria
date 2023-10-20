@@ -7,9 +7,25 @@ main {
   padding-top: 15vh;
 }
 
-img {
-  height: 13vw;
-  width: 13vw;
+h1 {
+  font-family: 'Arial', sans-serif; 
+  font-size: 2.5rem; 
+  color: #333; 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+  margin-top: 20px; 
+  text-align: center;
+}
+
+h2, h3 {
+  font-family: 'Arial', sans-serif; 
+  font-size: 1.8rem;
+  color: #666;
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header {
@@ -128,7 +144,6 @@ footer {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 1rem;
-  /* Reemplaza column-gap y row-gap por gap para simplificar */
 }
 
 div {
@@ -189,7 +204,7 @@ div {
 }
 
 div img {
-  width: calc(25% - 1rem);
+  width: calc(12% - 1rem);
   /* Ancho del 25% con espacio entre las imágenes */
   max-width: 100%;
   height: auto;
@@ -199,7 +214,7 @@ div img {
   transition: transform 0.3s, box-shadow 0.3s;
   margin-right: 1rem;
   /* Espacio entre las imágenes */
-  margin-bottom: 1rem;
+  margin-bottom: 6rem;
 }
 
 div img:last-child {
