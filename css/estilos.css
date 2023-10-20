@@ -127,12 +127,8 @@ footer {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-<<<<<<< HEAD
-  gap: 1rem; /* Reemplaza column-gap y row-gap por gap para simplificar */
-=======
   gap: 1rem;
   /* Reemplaza column-gap y row-gap por gap para simplificar */
->>>>>>> 1f925baf27b9202ae4793e60012cd836c44ccfbf
 }
 
 .imagen {
@@ -158,17 +154,11 @@ footer {
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
   .galeria {
-<<<<<<< HEAD
-    grid-template-columns: repeat(1, 1fr); /* Una imagen por fila en dispositivos móviles */
-  }
-}
-=======
     grid-template-columns: repeat(1, 1fr);
     /* Una imagen por fila en dispositivos móviles */
   }
 }
 
->>>>>>> 1f925baf27b9202ae4793e60012cd836c44ccfbf
 /* Estilos para los botones "Ver más" en las secciones */
 .button {
   display: block;
@@ -181,12 +171,8 @@ footer {
   transition: background-color 0.3s;
   font-size: 1.2em;
   margin: 0 auto;
-<<<<<<< HEAD
-  margin-top: 1rem; /* Espacio entre las imágenes y el botón */
-=======
   margin-top: 1rem;
   /* Espacio entre las imágenes y el botón */
->>>>>>> 1f925baf27b9202ae4793e60012cd836c44ccfbf
 }
 
 .button:hover {
@@ -202,35 +188,23 @@ footer {
 }
 
 .imagen img {
-<<<<<<< HEAD
-  width: calc(25% - 1rem); /* Ancho del 25% con espacio entre las imágenes */
-=======
   width: calc(25% - 1rem);
   /* Ancho del 25% con espacio entre las imágenes */
->>>>>>> 1f925baf27b9202ae4793e60012cd836c44ccfbf
   max-width: 100%;
   height: auto;
   display: block;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
-<<<<<<< HEAD
-  margin-right: 1rem; /* Espacio entre las imágenes */
-=======
   margin-right: 1rem;
   /* Espacio entre las imágenes */
->>>>>>> 1f925baf27b9202ae4793e60012cd836c44ccfbf
   margin-bottom: 1rem;
 }
 
 .imagen img:last-child {
   margin-right: 0;
-<<<<<<< HEAD
-  margin-bottom: 0; /* Sin espacio a la derecha ni abajo para la última imagen */
-=======
   margin-bottom: 0;
   /* Sin espacio a la derecha ni abajo para la última imagen */
->>>>>>> 1f925baf27b9202ae4793e60012cd836c44ccfbf
 }
 
 .imagen img:hover {
@@ -238,16 +212,6 @@ footer {
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
-<<<<<<< HEAD
-/* Estilos para dispositivos móviles */
-@media (max-width: 768px) {
-  .imagen img {
-    width: 100%; /* Ancho completo en dispositivos móviles */
-    margin-right: 0; /* Sin espacio a la derecha en dispositivos móviles */
-    margin-bottom: 1rem; /* Espacio entre las imágenes en dispositivos móviles */
-  }
-}
-=======
 /* Estilos para dispositivos móviles (puedes ajustar según sea necesario) */
 @media (max-width: 768px) {
   .imagen img {
@@ -259,4 +223,3 @@ footer {
     /* Espacio entre las imágenes en dispositivos móviles */
   }
 }
->>>>>>> 1f925baf27b9202ae4793e60012cd836c44ccfbf
