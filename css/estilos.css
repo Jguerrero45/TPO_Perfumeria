@@ -8,17 +8,18 @@ main {
 }
 
 h1 {
-  font-family: 'Arial', sans-serif; 
-  font-size: 2.5rem; 
-  color: #333; 
-  text-transform: uppercase; 
-  letter-spacing: 2px; 
-  margin-top: 20px; 
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5rem;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 20px;
   text-align: center;
 }
 
-h2, h3 {
-  font-family: 'Arial', sans-serif; 
+h2,
+h3 {
+  font-family: 'Arial', sans-serif;
   font-size: 1.8rem;
   color: #666;
   text-align: center;
@@ -135,6 +136,7 @@ header {
 footer {
   background: #222;
   color: white;
+  height: 12vh;
 }
 
 /* Estilos para la galería de imágenes */
@@ -191,7 +193,7 @@ div img:hover {
 }
 
 .button:hover {
-  background-color:#4ad295;
+  background-color: #4ad295;
   ;
 }
 
@@ -230,7 +232,7 @@ div img:hover {
 
 /* Estilos para dispositivos móviles (puedes ajustar según sea necesario) */
 @media (max-width: 768px) {
-div img {
+  div img {
     width: 100%;
     /* Ancho completo en dispositivos móviles */
     margin-right: 0;
@@ -238,4 +240,17 @@ div img {
     margin-bottom: 1rem;
     /* Espacio entre las imágenes en dispositivos móviles */
   }
+}
+
+.main-contacto {
+  padding-bottom: 5vw;
+  padding-left: 1vw;
+}
+
+
+#logo {
+  height: 10vh;
+  width: 5vw;
+  border-radius: 20% 20% 20% 20%;
+  padding-top: 6.5vw;
 }
