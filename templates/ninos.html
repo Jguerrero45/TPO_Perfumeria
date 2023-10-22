@@ -14,16 +14,18 @@
     <header class="header">
         <!-- menu de navegacion -->
         <div class="nav-menu">
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="menu-icon"><img src="icons/icono menu desplegable.svg" alt=""></i>
-            </label>
-            <img id="logo" src="../img/png_d´amico.png" alt="">
             <ul>
+                <li><a href="../index.html"><img src="/TPO_Perfumeria-main/img/png_d´amico.ico" alt
+                            class="logo-img"></a></li>
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="hombres.html">Hombres</a></li>
-                <li><a href="mujeres.html">Mujeres</a></li>
-                <li><a href="ninos.html">Niños</a></li>
+                <li class="cat-desp">
+                    <a href="#">Categorías</a>
+                    <ul class="cat-menu">
+                        <li><a href="hombres.html">Hombres</a></li>
+                        <li><a href="mujeres.html">Mujeres</a></li>
+                        <li><a href="ninos.html">Niños</a></li>
+                    </ul>
+                </li>
                 <li><a href="registro.html">Registrarse</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
@@ -48,12 +50,15 @@
 
     <!-- Pie de página -->
     <footer>
-        <div>
-            <h2 class="texto_pie"><i><b>D`Amico ©</b> all rights reserved</i></h2>
-            <i class="fa-brands fa-facebook" style="font-size: 2.9vw;"></i>
-            <i class="fa-brands fa-twitter" style="font-size: 2.9vw;"></i>
-            <i class="fa-brands fa-instagram" style="font-size: 2.9vw;"></i>
-        </div>
+        <section class="footer">
+            <h2><i><b>D`Amico ©</b> all rights reserved</i></h2>
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+        </section>
     </footer>
 
     <script src="https://kit.fontawesome.com/003123b854.js" crossorigin="anonymous"></script>
