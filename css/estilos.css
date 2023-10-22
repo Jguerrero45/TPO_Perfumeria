@@ -246,3 +246,11 @@ div img:hover {
   padding-bottom: 5vw;
   padding-left: 1vw;
 }
+
+
+#logo {
+  height: 10vh;
+  width: 5vw;
+  border-radius: 20% 20% 20% 20%;
+  padding-top: 6.5vw;
+}
