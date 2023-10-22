@@ -155,15 +155,15 @@ header {
 
 .social-icons{
   font-size: 200%;
-  display: flex;
+  display: block;
   justify-content: center;
   position:relative;
-  display: flex;
   flex-direction: row;
   align-items: center;
   min-width: 400px;
   justify-content: center;
   text-align: center;
+  margin-top: 1vw;
 }
 
 /* Estilos para la galería de imágenes */
@@ -257,7 +257,7 @@ div img:hover {
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Estilos para dispositivos móviles (puedes ajustar según sea necesario) */
+/* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
 div img {
     width: 100%;
@@ -268,3 +268,21 @@ div img {
     /* Espacio entre las imágenes en dispositivos móviles */
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
