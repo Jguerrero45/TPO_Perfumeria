@@ -88,7 +88,23 @@ header {
   display: block;
 }
 
+/* Ocultar por defecto los elementos del menú desplegable */
+.cat-menu li {
+  display: none;
+}
 
+/* Mostrar los elementos del menú desplegable cuando se hace hover sobre .cat-desp */
+
+.cat-desp:hover .cat-menu li {
+  display: block;
+}
+
+/* Estilos para el hover en el menú desplegable */
+.cat-menu li:hover {
+  background: #4ad295;
+  padding: .25rem .75rem;
+  border-radius: .2rem;
+}
 
 /* Menu desplegable*/
 @media (max-width:768px) {
