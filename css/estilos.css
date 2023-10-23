@@ -160,6 +160,12 @@ header {
   }
 }
 
+.sub-arrow {
+  font-size: 70%;
+  color: white;
+  vertical-align: middle;
+}
+
 .footer {
   background: #222;
   color: white;
