@@ -362,7 +362,7 @@ div img {
 
 
 /* Estilos generales para el formulario */
-section {
+.formu {
   text-align: center;
   background-color: #f5f5f5;
   padding: 40px;
