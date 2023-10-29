@@ -46,13 +46,12 @@ header {
   background-color: #222;
   color: #fff;
   display: flex;
-  height: 10vh;
+  height: 6vh;
   justify-content: space-between;
   align-items: center;
   padding: .5rem 2rem;
   position: fixed;
   width: 100%;
-  z-index: 999;
 }
 
 .nav-menu ul {
@@ -83,6 +82,62 @@ header {
   height: 35%;
   border-radius: 2px; 
 }
+/*Menu responcive para moviles*/
+.menu-icon img{
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+}
+.menu-icon, #check{
+  display: none;
+}
+
+@media (max-width:768px){
+  .cat-desp{
+    display: block;
+  }
+  .checkbtn{
+      display: block;
+  }
+  .sub-arrow{
+    display: none;
+  }
+.logo-img{
+  display: none;
+}
+  .menu-icon{
+      display: block;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
+  }
+  .nav-menu ul{
+      display: block;
+      position: fixed;
+      top:70px;
+      left:-100%;
+      background: #222;
+      width: 100%;
+      height: 100vh;
+      right: 0;
+  }
+  .nav-menu ul li{
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+  }
+  .nav-menu ul li:last-child{
+      background: none;
+      padding: 1rem;
+  }
+  #check:checked ~ ul{
+      left: 0;
+      transition: all .25s;
+  }
+}
+
 
 .cat-desp {
   position: relative;
@@ -122,60 +177,6 @@ header {
   background: #4ad295;
   padding: .25rem .75rem;
   border-radius: .2rem;
-}
-
-/* Menu desplegable*/
-@media (max-width:768px) {
-  .cat-desp .cat-menu {
-    position: relative;
-    top: auto;
-    left: auto;
-    width: auto;
-    display: none;
-  }
-
-  .cat-desp:hover .cat-menu {
-    display: block;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-  }
-
-  header {
-    display: flex;
-    margin: auto;
-    width: 100%;
-  }
-
-  .nav-menu ul {
-    display: block;
-    position: fixed;
-    top: 70px;
-    left: -150%;
-    background: #222;
-    width: 100%;
-    height: 100vh;
-    right: 0;
-  }
-
-  .nav-menu ul li {
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-  }
-
-  .nav-menu ul li:last-child {
-    background: none;
-    padding: 1rem;
-  }
-
-  .nav-menu li a:hover {
-    background: #4ad295;
-    padding: .25rem .75rem;
-    border-radius: .2rem;
-  }
 }
 
 .sub-arrow {
@@ -328,7 +329,7 @@ div img:hover {
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
 div img {
-    width: 100%;
+    width: 80%;
     /* Ancho completo en dispositivos móviles */
     margin-right: 0;
     /* Sin espacio a la derecha en dispositivos móviles */
