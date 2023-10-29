@@ -78,6 +78,7 @@ header {
 }
 
 .logo-img {
+  margin-bottom: 0%;
   width: 25%;
   height: 40%;
   border-radius: 2px; 
@@ -90,11 +91,15 @@ header {
 
 .cat-menu {
   display: none;
+  border-radius: 5%;
+  margin-top: 0.25rem;
   position: absolute;
+  left: 0%;
   background-color: #222;
   min-width: 160px;
   z-index: 1;
 }
+
 
 .cat-desp:hover .cat-menu {
   display: block;
@@ -109,6 +114,7 @@ header {
 
 .cat-desp:hover .cat-menu li {
   display: block;
+  margin: 10px;
 }
 
 /* Estilos para el hover en el menú desplegable */
