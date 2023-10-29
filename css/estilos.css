@@ -25,8 +25,8 @@ main h2, h3 {
   text-align: center;
   margin-top: 10px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
 }
 
 .imagen h4 {
@@ -283,12 +283,12 @@ div img:hover {
   font-size: 1.2em;
   margin: 0 auto;
   margin-top: 1rem;
-  /* Espacio entre las imágenes y el botón */
+
 }
 
 .button:hover {
   background-color:#4ad295;
-  ;
+  cursor: pointer;
 }
 
 /* Alinea todas las imágenes y el botón en la misma línea */
@@ -311,12 +311,7 @@ div img {
   margin-right: 1rem;
   /* Espacio entre las imágenes */
   margin-bottom: 6rem;
-}
-
-div img:last-child {
-  margin-right: 0;
-  margin-bottom: 0;
-  /* Sin espacio a la derecha ni abajo para la última imagen */
+  cursor: pointer;
 }
 
 div img:hover {
@@ -335,31 +330,6 @@ div img {
     /* Espacio entre las imágenes en dispositivos móviles */
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Estilos generales para el formulario */
 .formu {
